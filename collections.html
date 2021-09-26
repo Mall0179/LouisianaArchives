@@ -5,14 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Collections</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="collections.css">
+    <link rel="stylesheet" href="carousel.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-    <!-- navbar here 
+
+    <header>Collections</header>
+
+<div class="main-carousel">
+    <div class="cell"><img class="img1" src="images/1930.jpg">
+        <h2 class="heading1">1930-1939</h2></div>
     
-    -->
+    <div class="cell"><img class="img2" src="images/1940.jpg">
+        <h2 class="heading2">1940-1949</h2></div>
+
+    <div class="cell"><img class="img3" src="images/1950.jpg">
+        <h2 class="heading3">1950-1959</h2></div>
+
+    <div class="cell"><img class="img4" src="images/1960.jpg">
+        <h2 class="heading4">1960-1969</h2></div>
+
+    <div class="cell"><img class="img5" src="images/1970.jpg">
+        <h2 class="heading1">1970-1979</h2></div>
+
+    <div class="cell"><img class="img6" src="images/1980.jpg">
+        <h2 class="heading1">1980-1989</h2></div>
+
+    <div class="cell"><img class="img7" src="images/1990.jpg">
+        <h2 class="heading7">1990-1999</h2></div>
+
+    <div class="cell"><img class="img8" src="images/2000.jpg">
+        <h2 class="heading1">2000-2010</h2></div>
+</div>
+
+    <article class="text_box">
+        <p>Lorem ipsum dolor sit amet,. Donec laoreet tincidunt sollicitudin sapien,. Proin sagittis turpis semper
+            purus. Phasellus ut consectetur mauris ligula.. Donec vel ligula eu erat.
+
+            Sed dui lectus, varius eget. Nam sed magna urna eu. Praesent eget eleifend libero sapien. Duis volutpat,
+            dolor nec scelerisque. Phasellus in nisi diam velit..
+
+            Donec mattis erat ac lorem. Vestibulum auctor augue ut enim. Curabitur ornare eleifend lectus, eget.
+            Maecenas sodales, dui nec condimentum. Nam purus sapien, elementum nec.
+
+            Suspendisse ullamcorper egestas molestie nec. Mauris luctus ligula id nibh. Cras erat neque, dignissim in.
+            In sapien nibh, tincidunt non. Sed sed mauris nibh auctor..</p>
+    </article>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+</script>
 
 </body>
 

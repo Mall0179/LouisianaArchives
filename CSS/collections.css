@@ -1,0 +1,162 @@
+/* still need to add correct font */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    margin: 0 15;
+    overflow: hidden;
+    border-radius: 8px;
+    top: 200px;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+
+.cell img {
+    object-fit:contain;
+    color: white;
+    background-repeat: no-repeat;
+    padding: 1px 20px;
+    background-size: cover;
+}
+
+
+.img1 {
+    height: 200px;
+    cursor: pointer;
+ }
+ 
+ .img2 {
+    height: 200px;  
+    padding: 2px 30px;
+    cursor: pointer;
+ }
+ 
+ .img3 {
+    height: 200px;   
+    padding: 2px 7px;
+    cursor: pointer;
+ }
+ 
+ .img4 {
+    height: 200px;
+    cursor: pointer;
+ }
+ 
+ .img5 {
+    height: 200px;
+    cursor: pointer;
+ }
+
+ .img6 {
+    height: 200px;
+    cursor: pointer;
+ }
+ 
+ .img7 {
+    height: 200px;
+    cursor: pointer;
+ }
+ 
+ .img8 {
+    height: 200px;
+    cursor: pointer;
+ }
+ 
+
+
+.text_box {
+    position: absolute;
+    bottom: -70px;
+    background-color: white;
+    padding: 6px;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 1em;
+    display: inline-block;
+    inline-size: 600px;
+    left: 25%;
+    border-style: solid;
+    border-color: lightslategray;
+
+}
+
+
+
+header {
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    top: 14%;
+    left: 52%;
+    transform: translateX(-10%) translate(-50%);
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.heading1 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50% -50%);
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+.heading2 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+.heading3 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    transform: translate(-50% -50%);
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+.heading4 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    transform: translate(-50% -50%);
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.heading7 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50% -50%);
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+
+
